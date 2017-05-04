@@ -1,0 +1,89 @@
+/*初始化*/
+html,body,div,p,a,span,h1,h2{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	
+}
+
+/*css样式*/
+body{
+	/*width: 100%;*/
+	margin: 10px auto;
+	/*padding: 20px;*/
+	
+
+}
+header{
+	width: 100%;
+	text-align: center;
+}
+header h1{
+	width: 100%;
+
+}
+header #new-game-buttom{
+	width: 100px;
+	margin: 10px auto 0;
+	background: #8f7a66;
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+header #new-game-buttom:hover{
+	background: #9f8b77;
+
+}
+header p{
+	margin: 10px auto;
+	font-size: 25px;
+}
+
+#grid-container{
+	position: relative; 
+
+	width: 500px;
+	height: 500px;
+	background: #8f7a66;
+	border-radius: 10px;
+	margin: 0 auto;
+
+}
+.grid-cell{
+	position: absolute; 
+
+	width: 100px;
+	height: 100px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 6px;
+}
+.number-cell{
+	position: absolute;
+
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
